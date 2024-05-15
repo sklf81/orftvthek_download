@@ -1,5 +1,4 @@
-!["Download Executable"](https://himbier.net/download/orftvthek_download/orftvthek_download)
-
+[Download ([https://stackoverflow.com](https://himbier.net/download/orftvthek_download))][Dowload]
 
 # orftvthek_download
 Ein Werkzeug um Videos aus der ORFTvthek herunterzuladen
