@@ -1,6 +1,4 @@
 [![Download]([Download](https://travis-ci.org/alexwolfe/Buttons.svg?branch=buttons-2)))](https://himbier.net/download/orftvthek_download/orftvthek_download)
-[![Download zip](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/DenverCoder1/readme-download-button-action/archive/1.0.2.zip)
-
 
 # orftvthek_download
 Ein Werkzeug um Videos aus der ORFTvthek herunterzuladen
