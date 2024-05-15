@@ -2,13 +2,13 @@
 Ein Werkzeug um Videos aus der ORFTvthek herunterzuladen
 ## Anwendung
 Mit diesem Programm kann man Inhalte der ORFTVthek mit einer benutzfreundlichen Oberfläche einfach herunterladen.
-!["Benutzeroberfläche"](UI.png)
+!["Benutzeroberfläche"](images/UI.png)
 Hierfür muss man lediglich die Internetaddresse des gewünschten Inhaltes in der oberen Programmzeile eingeben und dann dazu unten den gewünschten Dateinamen eingeben.
 Wenn man dies getan hat, kann man auf "Download" klicken und das Video wird heruntergeladen.
 ## Funktionsweise
 ### Struktur
 Im folgenden wird die Strukturiereung des Codes illustriert.
-!["Schamtische Illustration"](schematic.png)
+!["Schamtische Illustration"](images/schematic.png)
 ### Die Suche nach dem M3U8-Hyperlink
 Die Funktion getM3U8Link dient dazu, aus einem gegebenen HTML-String den Link der M3U8 Datei für den gewünschten Stream zu finden.
 
