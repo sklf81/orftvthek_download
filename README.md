@@ -14,7 +14,7 @@ Die Funktion getM3U8Link dient dazu, aus einem gegebenen HTML-String den Link de
 
 Hierbei ist es nicht so einfach aus der ORFTvThek diesen Link herauszufinden. Bei händischer Unterscuhung kommt man darauf dass dieser sich in einem JSON-Container befindet, der sich unter:
 
-``
+```
   <main class="main">
     ...
     <div class="mod_player html5">
@@ -23,7 +23,7 @@ Hierbei ist es nicht so einfach aus der ORFTvThek diesen Link herauszufinden. Be
         ...
         <div class="jsb_ jsb_VideoPlaylist">
           <div class=" " data-jsb="{..}">
-``
+```
 (Stand 15.05.2024) 
 
 Im JSON-Container ``data-jsb`` befindet sich der M3U8 Link. Hierfür kann man den ganzen String innerhalb des Containers zu einem Python-Dictionary umwandeln und dann mittels entsprechender Indizierung den gewünschten Link erhalten.
