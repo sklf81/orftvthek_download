@@ -1,5 +1,17 @@
 # orftvthek_download
 Ein Werkzeug um Videos aus der ORFTvthek herunterzuladen
+## Installation
+Dieses Programm kann man ganz einfach verwenden, indem man in der Konsole die mittels ``$python3 orftvthek_download.py`` das Skript ausführt.
+### Build
+Andernfalls kann man dieses Skript auch zu einer executable kompilieren.
+In meinem Fall mache ich das mit "pyinstaller". Zuerst muss man sich den pyinstaller installieren, dies geht am einfachsten mit dem Package-Installer für python "pip".
+mit pip kann man sich über die Konsole folgendermaßen den pyinstaller installieren: ``$pip3 install pyinstaller``.
+Mit dem pyinstaller kann man mit folgendem Befehl eine executable kompilieren: ``$pyinstaller orftvthek_download.py --onefile``
+Dafür muss man sich im "src"-Verzeichnis befinden.
+
+Wenn das der pyinstaller fertig ist mit dem kompilieren, kann man unter src/dist die executable finden, die "orftvthek_download" heißen sollte.
+Mit Doppelklick kann man dieses Programm ausführen und verwenden.
+
 ## Anwendung
 Mit diesem Programm kann man Inhalte der ORFTVthek mit einer benutzfreundlichen Oberfläche einfach herunterladen.
 !["Benutzeroberfläche"](images/UI.png)
@@ -30,4 +42,5 @@ Im JSON-Container ``data-jsb`` befindet sich der M3U8 Link. Hierfür kann man de
 
 <mark>Dabei ist es wichtig anzumerken, dass die ORFTVthek sich in Zukunft ändern kann, was bedeuten würde, dass der M3U8-Link nicht mehr an derselben Stelle zu finden ist.</mark>
 Hierfür müsste man dann in der Funktion ``getM3U8Link(string, parameters)`` gegebenenfalls die parameter entsprechend ändern, oder im schlimmsten Fall auch das Verzeichnis des JSON-Containers, indem sich der Link versteckt. Hierfür ist es zu empfehlen, den Quellcode eines Streams in der TVThek mit den Browser-Entwicklertools zu untersuchen um den Link händisch auffinddig zu machen. Anhand dessen kann man dann ``getM3U8Link(string, parameters)`` auf den neusten Stand anpassen.
+
 
