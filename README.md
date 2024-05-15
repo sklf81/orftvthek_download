@@ -1,4 +1,4 @@
-[Download] (https://himbier.net/download/orftvthek_download)
+[Download](https://himbier.net/download/orftvthek_download)
 
 # orftvthek_download
 Ein Werkzeug um Videos aus der ORFTvthek herunterzuladen
