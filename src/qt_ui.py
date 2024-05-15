@@ -137,7 +137,7 @@ class Ui_Dialog(object):
 "Um einen Inhalt herunterzuladen muss man die entsprechende Adresse im oberen Textfeld eingeben, dann den gewünschten Dateinamen eingeben (bitte ohne Dateiendung) und dann auf \"Download\" klicken.\n"
 "\n"
 "Da die ORF-Tvthek stetig im Wandel ist, kann es vorkommen, dass das Programm rekonfiguguriert werden muss. Dafür steht Ihnen der Quellcode dieses Programms in den unten angegebenen Dokumentationen zur Verfügung."))
-        self.label_docs.setText(_translate("Dialog", "<a href=\"https://github.com/sklf81/orf-tvthek-downloader/\">Zu den Dokumentationen</a>"))
+        self.label_docs.setText(_translate("Dialog", "<a href=\"https://github.com/sklf81/orftvthek_download/blob/main/README.md/\">Zu den Dokumentationen</a>"))
         self.label_docs.setOpenExternalLinks(True)
 
 def createUI():
