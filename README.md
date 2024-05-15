@@ -1,4 +1,4 @@
-[![Download](Download)](https://himbier.net/download/orftvthek_download/orftvthek_download)
+[![Download]([Download](https://travis-ci.org/alexwolfe/Buttons.svg?branch=buttons-2)))](https://himbier.net/download/orftvthek_download/orftvthek_download)
 
 # orftvthek_download
 Ein Werkzeug um Videos aus der ORFTvthek herunterzuladen
